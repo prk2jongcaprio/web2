@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <title>Portofolio Sintya</title>
+  </head>
+  <style>
+    /* Reset Dasar */
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   scroll-behavior: smooth;
+}
+body{
+   background-color: white;
+   color: #333;
+ }
+ 
+/* Navigasi */
+.navbar{
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   align-items: center;
+   background-color: pink;
+   padding: 20px 10px;
+   position: sticky;
+   top: 0;
+   box-shadow: 0 2px 5px solid rgba(0,0,0,0.1);
+   z-index: 100;
+}
+.navbar .logo{
+   font-size: 24px;
+   font-weight: bold;
+   color: #2c3e50;
+}
+.navbar .logo span{
+   color: white;
+}
+.nav-link {
+   display: flex;
+   list-style: none;
+}
+.nav-link li{
+   margin-left: 20px;
+}
+.nav-link a{
+   text-decoration: none;
+   color: #555;
+   font-weight: 500;
+   transition: color 0.3s;
+}
+.nav-link a:hover{
+   color: white;
+}
+
+.header{
+  margin: 0;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  text-align: center;
+  background:  #D0F0C0;
+  padding: 40px 20px;
+}
+
+.header-content h1{
+  font-size: 40px;
+  margin-bottom: 15px;
+  font-family: cursive;
+}
+
+.header-content p{
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+  color: black;
+  line-height: 1.6;
+}
+
+.header-content img{
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 30%;
+  border: 7px solid white;
+  margin: 20px;
+}
+
+.btn{
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: pink;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+  border-radius: 30px;
+}
+
+.btn:hover{
+  background-color: pink;
+}
+
+.hero{
+  background: pink;
+  padding: 25px;
+  margin: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.biodata{
+  background: pink;
+  padding: 25px;
+  margin:20px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+
+    
+  </style>
+<body>
+  <nav class="navbar">
+    <div class="logo">Porto<span>folio</span></div>
+    <ul class="nav-link">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">Tentang</a></li>
+      <li><a href="#contact">Kontak</a></li>
+  </nav>
+  
+  
+  
+  <selection id="home" class="header">
+    <div class="header-content">
+    <img src="tya3.jpg"></a>
+    <h1>Haii! Saya Tyaaa💚👋</h1>
+    <p>Siswi SMK | Pengembangan perangkat lunak dan gim</p>
+    <p>Selamat datang di halaman portofolio sederhana saya. Saya senang belajar hal baru dan membangun halaman web yang menarik.</p>
+    <a href="#contact" class="btn">hubungi saya</a>
+    </div>
+  </selection>
+  
+  
+  <div class="hero">
+    <h2>Tentang Saya</h2>
+    <p>Saya seorang siswi SMK yang sedang menempuh pendidikan di SMKN 1 CIAMIS.</p>
+    <p>Saya suka Kpop.</p>
+  </div>
+  
+  
+  <div class="biodata">
+  <h2>Biodata</h2>
+  <p>Nama lengkap: Ratna Sintya</p>
+  <p>Tempat, Tanggal lahir: Ciamis, 04 Maret 2009</p>
+  <p>Jenis kelamin: Perempuan</p>
+  <p>Agama: Islam</p>
+  </div>
+  
+</body>
+</html>
